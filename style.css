@@ -1,0 +1,94 @@
+.logo img{
+    width: 164px;
+}
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+.right ul{
+    display: flex;
+    gap: 60px;
+    
+
+
+}
+.right ul li{
+    list-style: none;
+    display: flex;
+    cursor: pointer;
+   
+}
+.right ul li img{
+    margin-right: 20px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+    gap: 20px;
+}
+.second  .shiva{
+    font-size: 40px;
+}
+.content{
+    font-size:20px;
+}
+.btn button{
+    color: aliceblue;
+    background-color: rgb(52, 123, 194);
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 10px ;
+
+
+}
+.sai{
+    display: flex;
+    gap:10px;
+    justify-content: start;
+    align-items: baseline;
+    margin-right: 500px;
+}
+.sai .small{
+    font-size: 10px;
+}
+.third{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+
+}
+.third .boxes{
+    margin-left: 80px
+    
+
+}
+.third .big{
+    text-align: center;
+}
+.third .small2{
+    font-size: 10px;
+    text-align: center;
+    
+    margin-bottom: 10px;
+
+}
+ .third .btn1 button{
+    background-color: rgb(10, 193, 193);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 20px;
+
+}
+.third .btn2 button{
+    background-color: rgb(49, 168, 85);
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 20px;
+
+}
